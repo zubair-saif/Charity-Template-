@@ -1,0 +1,9 @@
+.banner-image-2 {
+	display: block;
+}
+.banner-image-1 {
+	display: none;
+}
+.charity-subheader {
+	background: url(../images/switcher-images/banner-2.jpg);
+}

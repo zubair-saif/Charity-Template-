@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Charity Home Page</title>
+
+    <!-- Css Files -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/flaticon.css" rel="stylesheet">
+    <link href="css/slick-slider.css" rel="stylesheet">
+    <link href="css/fancybox.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+     <link href="blast.min.css" rel="stylesheet" />
+    
+   
+    <!-- Banner images Switche Css Files -->
+    <link rel="alternate stylesheet" type="text/css" href="switcher/banner-image-1.css" title="banner-image-1" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/banner-image-2.css" title="banner-image-2" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/banner-image-3.css" title="banner-image-3" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/banner-image-4.css" title="banner-image-4" media="screen" />
+    <!-- Footer images Switche Css Files -->
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-1.css" title="footer-image-1" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-2.css" title="footer-image-2" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-3.css" title="footer-image-3" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-4.css" title="footer-image-4" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-5.css" title="footer-image-5" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-6.css" title="footer-image-6" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-7.css" title="footer-image-7" media="screen" />
+    <link rel="alternate stylesheet" type="text/css" href="switcher/footer-image-8.css" title="footer-image-8" media="screen" />
+   
+  
+  </head>
+  <body>
+
+    <!--Style Switcher-->
+    <div class="switcher-style vscroller switcher-sidebar-on">
+        <a href="#" class="switcher-style-btn switcher-style-btn-open"><i class="fa fa-gear fa-spin"></i></a>
+        <div class="vscroller-content">
+            <div class="page-options">
+                <div class="onoff-section">
+                    <h6>Top Strip</h6>
+                    <div class="topstrip-switch"><label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label></div>
+                    <p>on / off</p>
+                </div>
+                <div class="onoff-section logobackground-switch">
+                    <h6>Logo Background Color</h6>
+                    <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
+                    <p>on / off</p>
+                </div>
+                <div class="onoff-section header-border">
+                    <h6>Header Border</h6>
+                    <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
+                    <p>on / off</p>
+                </div>
+                <div class="onoff-section bannerslider-switch">
+                    <h6>Banner Slider</h6>
+                    <label class="switch"> <input type="checkbox"> <span class="slider round"></span> </label>
+                    <p>on / off</p>
+                </div>
+            </div>
+            <div class="column-section">
+                <h2>Without Slider BG Images</h2>
+                <ul>
+                    <li><a href="#" data-rel="banner-image-1" class="styleswitch"><img src="images/switcher-images/slider-bg-images-1.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="banner-image-2" class="styleswitch"><img src="images/switcher-images/slider-bg-images-2.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="banner-image-3" class="styleswitch"><img src="images/switcher-images/slider-bg-images-3.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="banner-image-4" class="styleswitch"><img src="images/switcher-images/slider-bg-images-4.jpg" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="column-section">
+                <h2>Chose Theme Color</h2>
+                <ul class="blast-colors">
+                    <li><div class="blast-color">#3D261A</div></li>
+                    <li><div class="blast-color">#B6B254</div></li>
+                    <li><div class="blast-color">#6B2E56</div></li>
+                    <li><div class="blast-color">#48A871</div></li>
+                    <li><div class="blast-color">#2D1D44</div></li>
+                    <li><div class="blast-color">#3F4E92</div></li>
+					<li><div class="blast-color">#DCC218</div></li>
+					<li><div class="blast-color">#F5005E</div></li>
+					<li><div class="blast-color">#916E30</div></li>
+					<li><div class="blast-color">#D0A571</div></li>
+					<li><div class="blast-color">#379AA4</div></li>
+					<li><div class="blast-color">#216348</div></li>
+					<li><div class="blast-color">#3B3B3B</div></li>
+					<li><div class="blast-color">#CF2626</div></li>
+                				
+			   </ul>
+            </div>
+            <div class="column-section border-thumb">
+                <h2>Footer Background Image</h2>
+                <ul>
+                    <li><a href="#" data-rel="footer-image-1" class="styleswitch"><img src="images/switcher-images/footer-image-1.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-2" class="styleswitch"><img src="images/switcher-images/footer-image-2.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-3" class="styleswitch"><img src="images/switcher-images/footer-image-3.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-4" class="styleswitch"><img src="images/switcher-images/footer-image-4.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-5" class="styleswitch"><img src="images/switcher-images/footer-image-5.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-6" class="styleswitch"><img src="images/switcher-images/footer-image-6.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-7" class="styleswitch"><img src="images/switcher-images/footer-image-7.jpg" alt=""></a></li>
+                    <li><a href="#" data-rel="footer-image-8" class="styleswitch"><img src="images/switcher-images/footer-image-8.jpg" alt=""></a></li>
+                </ul>
+            </div>
+           
+           
+        </div>
+
+    </div>
+    <!-- Style Switcher-->
+	
+    <!-- Main Wrapper -->
+    <div class="charity-main-wrapper">
+
+        <!--Header-->
+		<header id="charity-header" class="charity-header-one">
+
+            <!-- Top Strip -->
+            <div class="charity-top-strip">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="charity-strip-info">
+                                <li><i class="fa fa-phone"></i> +123 45 678</li>
+                                <li><i class="fa fa-envelope-o"></i> <a href="mailto:name@email.com">info@example.com</a></li>
+                                <li><i class="fa fa-map-marker"></i> 1403 Blackwell Street 9976</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="charity-strip-social">
+                                <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                                <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                                <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                                <li><a href="#" class="charity-colorhover fa fa-youtube"></a></li>
+                                <li><a href="#" class="charity-colorhover fa fa-vimeo"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Top Strip-->
+
+            <!--Main Header-->
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="charity-main-header">
+                    <a href="index.html" class="charity-logo"><img src="images/logo.png" alt=""></a> 
+                    <div class="charity-right-section">
+                        <!--Navigation-->
+                        <nav class="navbar navbar-default">
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="true">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                            </div>
+                            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                              <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a>
+                                    <ul class="charity-dropdown-menu">
+                                        <li><a href="#">Home-1</a></li>
+                                        <li><a href="#">Home-2</a></li>
+                                        <li><a href="#">Home-3</a></li>
+                                    
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blog</a></li>
+                                <li ><a href="#">Causes</a></li>
+                                <li><a href="event-grid.html">Events</a></li>
+                                <li><a href="team-grid.html">Team</a></li>
+                                <li class="charity-megamenu-li"><a href="#">Pages</a></li>
+                                <li class="charity-megamenu-li"><a href="#">shop</a></li>
+                                <li><a href="#">contact</a>
+                                  
+                                </li>
+                              </ul>
+                            </div>
+                        </nav>
+                        <!-- Navigation-->
+                        <a href="#" class="charity-simple-btn charity-bgcolor" data-blast="bgColor">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+            <!--Main Header-->
+
+        </header>
+		<!--Header-->
+
+		<!--Main Banner-->
+		<div class="charity-banner">
+
+            <!--Slider -->
+            <div class="charity-banner-one">
+                <div class="charity-banner-one-layer" >
+                    <span class="charity-transparent-layer"></span>
+                    <img src="extra-images/banner-1.jpg" alt="" >
+                    <div class="charity-banner-caption">
+                        <div class="container">
+                            <!--Cause Box -->
+                            <div class="banner-cause-box">
+                                <h2>Vaccine Career For African Children</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae magna vel eros consectetur bibendu.Morbi lacinia iaculis urnavel pretium.</p>
+                                <span class="charity-left-section charity-color">Raised: <small>$ 45,000</small></span>
+                                <span class="charity-right-section charity-color">Goal: <small>$80,000</small></span>
+                                <div class="clearfix"></div>
+                                <a href="#" class="charity-classic-btn">Donate Now</a>
+                            </div>
+                            <!-- Cause Box-->
+                        </div>
+                    </div>
+                </div>
+                <div class="charity-banner-one-layer">
+                    <span class="charity-transparent-layer"></span>
+                    <img src="extra-images/banner-2.jpg" alt="">
+                    <div class="charity-banner-caption">
+                        <div class="container">
+                            <!-- Cause Category-->
+                            <div class="charity-cause-category">
+                                <ul>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-books-stack-of-three"></i>
+                                            <h5><a href="#">Give Education</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-ribbon"></i>
+                                            <h5><a href="#">Causes</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-charity"></i>
+                                            <h5><a href="#">Charity</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-donation2"></i>
+                                            <h5><a href="#">Donation</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-piggy-bank"></i>
+                                            <h5><a href="#">Fundraising</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="charity-cause-category-wrap">
+                                            <i class="icon-helping"></i>
+                                            <h5><a href="#">NGO</a></h5>
+                                            <div class="clearfix"></div>
+                                            <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                            <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Cause Category-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Slider-->
+
+            <!--Without Slider-->
+            <div class="charity-without-slider">
+                <span class="charity-transparent-layer"></span>
+                <img class="banner-image-1" src="extra-images/banner-1.jpg" alt="">
+                <img class="banner-image-2" src="images/switcher-images/banner-2.jpg" alt="">
+                <img class="banner-image-3" src="images/switcher-images/banner-3.jpg" alt="">
+                <img class="banner-image-4" src="images/switcher-images/banner-4.jpg" alt="">
+                <div class="charity-banner-caption">
+                    <div class="container">
+                        <!--Cause Box -->
+                        <div class="banner-cause-box">
+                            <h2>Vaccine Career For African Children</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae magna vel eros consectetur bibendu.Morbi lacinia iaculis urnavel pretium.</p>
+                            <span class="charity-left-section charity-color">Raised: <small>$ 45,000</small></span>
+                            <span class="charity-right-section charity-color">Goal: <small>$80,000</small></span>
+                            <div class="clearfix"></div>
+                            <a href="#" class="charity-classic-btn">Donate Now</a>
+                        </div>
+                        <!--Cause Box-->
+                        <!--Cause Category -->
+                        <div class="charity-cause-category">
+                            <ul>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-books-stack-of-three"></i>
+                                        <h5><a href="#">Give Education</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-ribbon"></i>
+                                        <h5><a href="#">Causes</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-charity"></i>
+                                        <h5><a href="#">Charity</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-donation2"></i>
+                                        <h5><a href="#">Donation</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-piggy-bank"></i>
+                                        <h5><a href="#">Fundraising</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="charity-cause-category-wrap">
+                                        <i class="icon-helping"></i>
+                                        <h5><a href="#">NGO</a></h5>
+                                        <div class="clearfix"></div>
+                                        <span class="charity-left-section">Raised: <small>$3129</small></span>
+                                        <span class="charity-right-section">Goal: <small>$5000</small></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Cause Category-->
+                    </div>
+                </div>
+            </div>
+            <!--Without Slider-->
+            
+        </div>
+		<!-- Main Banner -->
+
+		<!-- Main Content-->
+		<div class="charity-main-content">
+
+			<!--Main Section -->
+			<div class="charity-main-section charity-minus-margin">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-md-12">
+                            <div class="charity-fancy-title"> <div class="charity-fancy-title-wrap"> <h2>Our Causes</h2> </div> <span>Lorem ipsum dolor</span> </div>
+                            <!--CauseGrid-->
+                            <div class="charity-cause charity-cause-simplegrid">
+                                <ul class="row">
+                                    <li class="col-md-4">
+                                        <figure data-blast="bgColor">
+                                            <a href="#"><img src="extra-images/cause-simple-grid-1.jpg" alt=""></a>
+                                            <figcaption> <a href="#"><i class="fa fa-users"></i> 12 Donors</a> </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Donate For Children</a></h4>
+                                            <p>Lorem ipsum dolor amet, onsectetde cons ectetur nulla. at ullamoe.</p>
+                                        </section>
+                                        <div class="skillst">
+                                            <div class="progressbar1" data-width="63" data-target="63"></div>
+                                        </div>
+                                        <div class="cause-simplegrid-bottom">
+                                            <a href="#" class="charity-donate-btn charity-bgcolor">Donate</a>
+                                            <span>$ 45,000 / $ 90,000</span>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <figure>
+                                            <a href="#"><img src="extra-images/cause-simple-grid-2.jpg" alt=""></a>
+                                            <figcaption> <a href="#"><i class="fa fa-users"></i> 28 Donors</a> </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Help The Africans</a></h4>
+                                            <p>Lorem ipsum dolor amet, onsectetde cons ectetur nulla. at ullamoe.</p>
+                                        </section>
+                                        <div class="skillst">
+                                            <div class="progressbar1" data-width="75" data-target="75"></div>
+                                        </div>
+                                        <div class="cause-simplegrid-bottom">
+                                            <a href="#" class="charity-donate-btn charity-bgcolor">Donate</a>
+                                            <span>$ 45,000 / $ 90,000</span>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <figure>
+                                            <a href="#"><img src="extra-images/cause-simple-grid-3.jpg" alt=""></a>
+                                            <figcaption> <a href="#"><i class="fa fa-users"></i> 34 Donors</a> </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Donate For Children</a></h4>
+                                            <p>Lorem ipsum dolor amet, onsectetde cons ectetur nulla. at ullamoe.</p>
+                                        </section>
+                                        <div class="skillst">
+                                            <div class="progressbar1" data-width="34" data-target="34"></div>
+                                        </div>
+                                        <div class="cause-simplegrid-bottom">
+                                            <a href="#" class="charity-donate-btn charity-bgcolor">Donate</a>
+                                            <span>$ 45,000 / $ 90,000</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- CauseGrid -->
+                        </div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Main Section -->
+
+            <!-- Main Section -->
+            <div class="charity-main-section charity-our-services-full">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <div class="charity-fancy-title charity-fancy-title-white"> <div class="charity-fancy-title-wrap"> <h2>Our sERVICES</h2> </div> <span>Lorem ipsum dolor</span> </div>
+                            <!-- Services-->
+                            <div class="charity-service charity-simple-service">
+                                <ul class="row">
+                                    <li class="col-md-4">
+                                        <span><i class="icon-users-group"></i></span>
+                                        <h3>Protect Children</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui velit, posuere a volutpat amet.</p>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <span><i class="icon-books-stack-of-three"></i></span>
+                                        <h3>Free Education</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui velit, posuere a volutpat amet.</p>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <span><i class="icon-donation2"></i></span>
+                                        <h3>Give Shelter</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Etiam dui velit, posuere a volutpat amet.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Services-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section -->
+
+            <!-- Main Section -->
+            <div class="charity-main-section charity-blog-grid-full">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <div class="charity-fancy-title"> <div class="charity-fancy-title-wrap"> <h2>Our blogs</h2> </div> <span>Lorem ipsum dolor</span> </div>
+                            <!-- Blog's-->
+                            <div class="charity-blog charity-blog-grid">
+                                <ul class="row">
+                                    <li class="col-md-4">
+                                        <figure>
+                                            <a href="#"><img src="extra-images/blog-grid-1.jpg" alt=""> <span class="charity-bloggrid-hover"><i class="icon-share4"></i></span> </a>
+                                            <figcaption>
+                                                <time datetime="2008-02-14 20:00" class="charity-bgcolor">18 <span>AUG</span></time>
+                                                <ul class="charity-grid-options">
+                                                    <li><i class="fa fa-user"></i> By <a href="#">Bastian B</a></li>
+                                                    <li><i class="fa fa-comments-o"></i> <a href="#">4 Comments</a></li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Gone To Ghana For Africans</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipng elit. Etiam dui velit, posuere a voluat sitamet, egestas ac ante.</p>
+                                            <a href="#" class="charity-read-more charity-bgcolor">Read More <i class="fa fa-angle-right"></i></a>
+                                        </section>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <figure>
+                                            <a href="#"><img src="extra-images/blog-grid-2.jpg" alt=""> <span class="charity-bloggrid-hover"><i class="icon-share4"></i></span> </a>
+                                            <figcaption>
+                                                <time datetime="2008-02-14 20:00" class="charity-bgcolor">14 <span>AUG</span></time>
+                                                <ul class="charity-grid-options">
+                                                    <li><i class="fa fa-user"></i> By <a href="#">Bastian B</a></li>
+                                                    <li><i class="fa fa-comments-o"></i> <a href="#">4 Comments</a></li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Give The Shelters To Needy</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipng elit. Etiam dui velit, posuere a voluat sitamet, egestas ac ante.</p>
+                                            <a href="#" class="charity-read-more charity-bgcolor">Read More <i class="fa fa-angle-right"></i></a>
+                                        </section>
+                                    </li>
+                                    <li class="col-md-4">
+                                        <figure>
+                                            <a href="#"><img src="extra-images/blog-grid-3.jpg" alt=""> <span class="charity-bloggrid-hover"><i class="icon-share4"></i></span> </a>
+                                            <figcaption>
+                                                <time datetime="2008-02-14 20:00" class="charity-bgcolor">22 <span>AUG</span></time>
+                                                <ul class="charity-grid-options">
+                                                    <li><i class="fa fa-user"></i> By <a href="#">Bastian B</a></li>
+                                                    <li><i class="fa fa-comments-o"></i> <a href="#">4 Comments</a></li>
+                                                </ul>
+                                            </figcaption>
+                                        </figure>
+                                        <section>
+                                            <h4><a href="#">Education Needed For Childrens</a></h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipng elit. Etiam dui velit, posuere a voluat sitamet, egestas ac ante.</p>
+                                            <a href="#" class="charity-read-more charity-bgcolor">Read More <i class="fa fa-angle-right"></i></a>
+                                        </section>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Blog's-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section-->
+
+            <!--Main Section-->
+            <div class="charity-main-section">
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        
+                        <div class="charity-fancy-title"> 
+						<div class="charity-fancy-title-wrap"> 
+						<h2>Our Gallery</h2>
+						</div>
+						<span>Lorem ipsum dolor</span> 
+						</div>
+                        <!--Gallery -->
+                        <div class="charity-filterable">
+                            <ul class="filters-button-group">
+                                <li><a data-filter="*" class="charity-active" href="javascript:void(0)"> All
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                                <li><a data-filter=".metal" href="javascript:void(0)" class="">Education
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                                <li><a data-filter=".transition" href="javascript:void(0)" class="">Health
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                                <li><a data-filter=".ium" href="javascript:void(0)" class="">Jobs
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                                <li><a data-filter=".metal" href="javascript:void(0)" class="">Graveyard
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                                <li><a data-filter=".transition" href="javascript:void(0)" class="">Orphanage
+                                    <span class="charity-left-top-border"></span>
+                                    <span class="charity-right-top-border"></span>
+                                    <span class="charity-left-bottom-border"></span>
+                                    <span class="charity-right-bottom-border"></span>
+                                </a></li>
+                            </ul>
+                        </div>
+                        <div class="charity-gallery charity-masonery-gallery">
+                            <ul>
+                                <li class="element-item metal col-md-2">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-1.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-1.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item transition col-md-4">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-2.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-2.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item ium col-md-4">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-3.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-3.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item metal col-md-2">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-4.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-4.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus dapibus</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item transition col-md-4">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-5.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-5.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item ium col-md-2">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-6.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-6.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item transition col-md-2">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-7.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-7.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="element-item ium col-md-4">
+                                    <figure>
+                                        <img src="extra-images/gallery-modren-8.jpg" alt="">
+                                        <figcaption>
+                                            <div class="charity-masonery-hover">
+                                                <span class="charity-left-top-border"></span>
+                                                <span class="charity-right-top-border"></span>
+                                                <span class="charity-left-bottom-border"></span>
+                                                <span class="charity-right-bottom-border"></span>
+                                            </div>
+                                            <div class="charity-masonery-caption">
+                                                <a data-fancybox-group="group" href="extra-images/gallery-modren-8.jpg" class="fancybox charity-gallery-btn"><i class="icon-add2"></i></a>
+                                                <a href="#" class="charity-gallery-btn"><i class="icon-link4"></i></a>
+                                                <h4>Praesent dapibus dapibus ultricies</h4>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Gallery-->
+                        
+
+                    </div>
+                </div>
+            </div>
+            <!--Main Section-->
+
+            <!-- Main Section -->
+            <div class="charity-main-section charity-team-medium-full">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <div class="charity-fancy-title"> 
+							<div class="charity-fancy-title-wrap"> 
+							<h2>Our Team</h2> 
+							</div> 
+							<span>Lorem ipsum dolor</span> 
+							</div>
+                            <!--Team -->
+                            <div class="charity-team charity-team-medium">
+                                <ul class="row">
+                                    <li class="col-md-6">
+                                        <figure><a href="#"><img src="extra-images/team-medium-1.jpg" alt=""> <span class="fa fa-link"></span> </a></figure>
+                                        <section>
+                                            <h4><a href="#">John Martyn</a></h4>
+                                            <span>Co-director</span>
+                                            <p>Lorem ipsum dor sit aet adipisc elit Etia vas</p>
+                                            <ul class="charity-team-social">
+                                                <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-vine"></a></li>
+                                            </ul>
+                                        </section>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="#"><img src="extra-images/team-medium-2.jpg" alt=""> <span class="fa fa-link"></span> </a></figure>
+                                        <section>
+                                            <h4><a href="#">Jack Jhonsen</a></h4>
+                                            <span>Co-director</span>
+                                            <p>Lorem ipsum dor sit aet adipisc elit Etia vas</p>
+                                            <ul class="charity-team-social">
+                                                <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-vine"></a></li>
+                                            </ul>
+                                        </section>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="#"><img src="extra-images/team-medium-3.jpg" alt=""> <span class="fa fa-link"></span> </a></figure>
+                                        <section>
+                                            <h4><a href="#">Jhon Elexander</a></h4>
+                                            <span>Co-director</span>
+                                            <p>Lorem ipsum dor sit aet adipisc elit Etia vas</p>
+                                            <ul class="charity-team-social">
+                                                <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-vine"></a></li>
+                                            </ul>
+                                        </section>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <figure><a href="#"><img src="extra-images/team-medium-4.jpg" alt=""> <span class="fa fa-link"></span> </a></figure>
+                                        <section>
+                                            <h4><a href="#">John Martyn</a></h4>
+                                            <span>Co-director</span>
+                                            <p>Lorem ipsum dor sit aet adipisc elit Etia vas</p>
+                                            <ul class="charity-team-social">
+                                                <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                                                <li><a href="#" class="charity-colorhover fa fa-vine"></a></li>
+                                            </ul>
+                                        </section>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Team-->
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Main Section-->
+
+            <!-- Main Section-->
+            <div class="charity-main-section charity-counterbg-full">
+                <span class="dark-black-transparent"></span>
+                <div class="container">
+                    <div class="row">
+                        
+                        <!--Counter -->
+                        <div class="col-md-4 charity-counter-text">
+                            <h2>We are <span class="charity-color">served</span> since 35 years to helple people with trust</h2>
+                            <a href="404.html" class="charity-counter-btn charity-color charity-bordercolor"><span>Join Us Now <i class="fa fa-long-arrow-right"></i></span></a>
+                        </div>
+                        <div class="col-md-8 padding-top-spacer">
+                            <div class="charity-counter">
+                                <ul class="row">
+                                    <li class="col-md-3">
+                                        <i class="icon-donation2"></i>
+                                        <span class="charity-color" id="word-count1">2210</span>
+                                        <small>Donators</small>
+                                    </li>
+                                    <li class="col-md-3">
+                                        <i class="icon-ribbon"></i>
+                                        <span class="charity-color" id="word-count2">210</span>
+                                        <small>Causes Solved</small>
+                                    </li>
+                                    <li class="col-md-3">
+                                        <i class="icon-mortarboard"></i>
+                                        <span class="charity-color" id="word-count3">957</span>
+                                        <small>Volunteer</small>
+                                    </li>
+                                    <li class="col-md-3">
+                                        <i class="icon-help"></i>
+                                        <span class="charity-color" id="word-count4">3010</span>
+                                        <small>Child Saved</small>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Counter-->
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Main Section-->
+
+            <!--Main Section -->
+            <div class="charity-main-section charity-event-medium-full">
+                <div class="container">
+                    <div class="row">
+                        
+                        <!--Event-->
+                        <div class="col-md-12">
+                            <div class="charity-fancy-title"> <div class="charity-fancy-title-wrap"> <h2>Our Events</h2> </div> <span>Lorem ipsum dolor</span> </div>
+                            <div class="charity-event charity-event-medium">
+                                <ul class="row">
+                                    <li class="col-md-6">
+                                        <div class="charity-event-medium-wrap">
+                                            <figure><a href="#"><img src="extra-images/event-medium-1.jpg" alt=""></a> <figcaption><a href="event-detail.html">Buy Ticket</a></figcaption> </figure>
+                                            <section>
+                                                <h4><a href="event-detail.html">Empowermnt and leader ship trainings</a></h4>
+                                                <p>Phasellus accusn lacus eget nisi aliqua, ac orare quam interdum In blandit.</p>
+                                                <ul class="charity-event-option">
+                                                    <li><i class="fa fa-calendar"></i> Dec 22, 2017 - Dec 27, 2017</li>
+                                                    <li><i class="fa fa-map-marker"></i> 1403 Blackwell Street 9976</li>
+                                                </ul>
+                                                <a href="#" class="charity-event-btn charity-bgcolorhover">View Detail</a>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <div class="charity-event-medium-wrap">
+                                            <figure><a href="#"><img src="extra-images/event-medium-2.jpg" alt=""></a> <figcaption><a href="event-detail.html">Buy Ticket</a></figcaption> </figure>
+                                            <section>
+                                                <h4><a href="#">Help end homelessness people</a></h4>
+                                                <p>Phasellus accusn lacus eget nisi aliqua, ac orare quam interdum In blandit.</p>
+                                                <ul class="charity-event-option">
+                                                    <li><i class="fa fa-calendar"></i> Dec 22, 2017 - Dec 27, 2017</li>
+                                                    <li><i class="fa fa-map-marker"></i> 1403 Blackwell Street 9976</li>
+                                                </ul>
+                                                <a href="#" class="charity-event-btn charity-bgcolorhover">View Detail</a>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <div class="charity-event-medium-wrap">
+                                            <figure><a href="#"><img src="extra-images/event-medium-3.jpg" alt=""></a> <figcaption><a href="event-detail.html">Buy Ticket</a></figcaption> </figure>
+                                            <section>
+                                                <h4><a href="#">Trinity trash bash water way cleanup</a></h4>
+                                                <p>Phasellus accusn lacus eget nisi aliqua, ac orare quam interdum In blandit.</p>
+                                                <ul class="charity-event-option">
+                                                    <li><i class="fa fa-calendar"></i> Dec 22, 2017 - Dec 27, 2017</li>
+                                                    <li><i class="fa fa-map-marker"></i> 1403 Blackwell Street 9976</li>
+                                                </ul>
+                                                <a href="#" class="charity-event-btn charity-bgcolorhover">View Detail</a>
+                                            </section>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <div class="charity-event-medium-wrap">
+                                            <figure><a href="#"><img src="extra-images/event-medium-4.jpg" alt=""></a> <figcaption><a href="event-detail.html">Buy Ticket</a></figcaption> </figure>
+                                            <section>
+                                                <h4><a href="#">Make donation day for all people</a></h4>
+                                                <p>Phasellus accusn lacus eget nisi aliqua, ac orare quam interdum In blandit.</p>
+                                                <ul class="charity-event-option">
+                                                    <li><i class="fa fa-calendar"></i> Dec 22, 2017 - Dec 27, 2017</li>
+                                                    <li><i class="fa fa-map-marker"></i> 1403 Blackwell Street 9976</li>
+                                                </ul>
+                                                <a href="#" class="charity-event-btn charity-bgcolorhover">View Detail</a>
+                                            </section>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Event-->
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Main Section-->
+
+            <!-- Main Section -->
+            <div class="charity-main-section charity-cause-strip-full">
+                <span class="charity-transparent-layer"></span>
+                <div class="container">
+                    <div class="row">
+                        
+                        <!--Cause Strip-->
+                        <div class="col-md-12">
+                            <div class="charity-cause-strip">
+                                <h2>Help Africans,Donate For A Cause</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nibh, fringilla fermentum vulputate Curabitur vel maximus magna at cursus aliquet, arcu ut massa</p>
+                                <div class="charity-causestrip-section">
+                                    <span class="charity-left-section">Raised: <small>3250$</small></span>
+                                    <span class="charity-right-section">Goal: <small>5000$</small></span>
+                                    <div class="skillst"> <div class="progressbar1" data-width="70" data-target="70"></div> </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <a href="#" class="cause-strip-btn charity-color charity-bordercolor"><span>Make a Donation</span></a>
+                            </div>
+                        </div>
+                        <!--Cause Strip-->
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Main Section-->
+
+            <!--Main Section-->
+            <div class="charity-main-section charity-testimonials-full">
+                <div class="container">
+                    <div class="row">
+                        
+                        <!--Testimonials-->
+                        <div class="col-md-12">
+                            <div class="charity-fancy-title"> <div class="charity-fancy-title-wrap"> <h2>Our Testimonials</h2> </div> <span>Lorem ipsum dolor</span> </div>
+                            <div class="charity-testimonials">
+                                <ul class="row">
+                                    <li class="col-md-6">
+                                        <div class="charity-testimonials-wrap">
+                                            <figure><a href="#"><img src="extra-images/testimonials-1.jpg" alt=""></a></figure>
+                                            <div class="charity-testimonials-text">
+                                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu condimentum nulla, eget viverra leo. Proin id varius mi. Sed pharetra, velit a lacinia mattis"</p>
+                                                <h5>Jimmy Fedrick</h5>
+                                                <span>Founder</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="col-md-6">
+                                        <div class="charity-testimonials-wrap">
+                                            <figure><a href=""><img src="extra-images/testimonials-2.jpg" alt=""></a></figure>
+                                            <div class="charity-testimonials-text">
+                                                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu condimentum nulla, eget viverra leo. Proin id varius mi. Sed pharetra, velit a lacinia mattis"</p>
+                                                <h5>Julia Martyn</h5>
+                                                <span>Director</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Testimonials-->
+                        
+                    </div>
+                </div>
+            </div>
+            <!--Main Section-->
+
+		</div>
+		<!--Main Content-->
+
+		<!-- Footer-->
+		<footer id="charity-footer" class="charity-footer-one">
+            <span class="charity-footer-transparent"></span>
+            
+            <!-- Newslatter-->
+            <div class="container">
+                <div class="charity-footer-newslatter">
+                    <h3>Subscribe To Our Newsletter</h3>
+                    <p>Sign up today for our newsletter</p>
+                    <form>
+                        <input type="text" value="Type Your Email">
+                        <i class="fa fa-paper-plane"></i>
+                        <input type="submit" value="">
+                    </form>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- Newslatter -->
+
+            <!-- Footer Widget -->
+            <div class="charity-footer-widget">
+                <div class="container">
+                    <div class="row">
+                        <!-- Widget Categories -->
+                        <aside class="col-md-4 widget widget_categories">
+                            <h3 class="charity-footer-title">Quick Links</h3>
+                            <ul>
+                                <li><a href="#">Causes</a></li>
+                                <li><a href="#">Donors</a></li>
+                                <li><a href="#">Blogs</a></li>
+                                <li><a href="#">Latest News</a></li>
+                                <li><a href="#">Testimonials</a></li>
+                                <li><a href="#">Volunteers</a></li>
+                                <li><a href="#">Gallery</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Causes</a></li>
+                                <li><a href="#">Newsletter</a></li>
+                            </ul>
+                        </aside>
+                        <!-- Widget Categories -->
+                        <!-- Widget Recent News -->
+                        <aside class="col-md-4 widget widget_recent_news">
+                            <h3 class="charity-footer-title">Recent News</h3>
+                            <ul>
+                                <li>
+                                    <figure><a href="#"><img src="extra-images/widget-recent-news-1.jpg" alt=""></a></figure>
+                                    <section>
+                                        <h6><a href="#">Praesent sit amet tellus sed qum biben dum faucibus</a></h6>
+                                        <time datetime="2008-02-14 20:00">22 Sept, 2016</time>
+                                    </section>
+                                </li>
+                                <li>
+                                    <figure><a href="#"><img src="extra-images/widget-recent-news-2.jpg" alt=""></a></figure>
+                                    <section>
+                                        <h6><a href="#">Morbi pulvinar faucibus urna, sit amet euismod nulla.</a></h6>
+                                        <time datetime="2008-02-14 20:00">28 Sept, 2016</time>
+                                    </section>
+                                </li>
+                            </ul>
+                        </aside>
+                        <!-- Widget Recent News-->
+                        <!--Widget Twitter -->
+                        <aside class="col-md-4 widget widget_twitter">
+                            <h3 class="charity-footer-title">Twitter Feeds</h3>
+                            <ul>
+                                <li>
+                                    <span class="charity-twitter-icon"><i class="fa fa-twitter"></i></span>
+                                    <p>Check out 'Obsequy th' on by @imithemes #themeforest <a href="#">https://t.co/q3fGVqyrxg</a></p>
+                                    <time datetime="2008-02-14 20:00">22 August, 2017</time>
+                                </li>
+                                <li>
+                                    <span class="charity-twitter-icon"><i class="fa fa-twitter"></i></span>
+                                    <p>Check out 'Obsequy th' on by @donatenow #themeforest <a href="#">https://t.co/q3fGVqyrxg</a></p>
+                                    <time datetime="2008-02-14 20:00">24 August, 2017</time>
+                                </li>
+                            </ul>
+                        </aside>
+                        <!-- Widget Twitter -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Widget-->
+
+            <!--CopyRight-->
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="charity-copyright-section">
+                    <p>© 2016, All Right Reserved - by <a href="#" class="charity-colorhover">EyeCix</a></p>
+                    <ul class="charity-copyright-social">
+                        <li><a href="#" class="charity-colorhover fa fa-facebook"></a></li>
+                        <li><a href="#" class="charity-colorhover fa fa-twitter"></a></li>
+                        <li><a href="#" class="charity-colorhover fa fa-linkedin"></a></li>
+                        <li><a href="#" class="charity-colorhover fa fa-youtube"></a></li>
+                        <li><a href="#" class="charity-colorhover fa fa-vimeo"></a></li>
+                    </ul>
+                    <a href="#" class="charity-back-top charity-bgcolorhover"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+            <!-- CopyRight-->
+
+		</footer>
+		<!-- Footer-->
+
+	<div class="clearfix"></div>
+    </div>
+    <!--Main Wrapper -->
+
+	<!-- jQuery (necessary for JavaScript plugins) -->
+	<script src="jquery-1.11.3.js"></script>
+    <script src="blast.min.js"></script>
+	<script type="text/javascript" src="script/jquery.js"></script>
+    <script type="text/javascript" src="script/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script/slick.slider.min.js"></script>
+    <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
+    <script type="text/javascript" src="script/fancybox.pack.js"></script>
+    <script type="text/javascript" src="script/isotope.min.js"></script>
+    <script type="text/javascript" src="script/progressbar.js"></script>
+    <script type="text/javascript" src="script/counter.js"></script> 
+    <script type="text/javascript" src="script/jquery.jplayer.js"></script>
+    <script type="text/javascript" src="script/jplayer.playlist.js"></script>
+    <script type="text/javascript" src="script/styleswitch.js"></script>
+    <script type="text/javascript" src="script/functions.js"></script>
+
+  </body>
+</html>
